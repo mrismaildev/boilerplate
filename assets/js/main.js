@@ -11,3 +11,7 @@ function closeNav() {
   document.getElementById('main').style.marginLeft = '0';
   document.body.style.backgroundColor = 'white';
 }
+// Select2 active করা হচ্ছে
+$(document).ready(function () {
+  $('#country').select2();
+});
